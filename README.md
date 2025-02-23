@@ -24,12 +24,12 @@
 
 # Paketləri quraşdırmaq üçün:
 
-```sh
+sh
 pip install requests tqdm
 
 git clone https://github.com/yourusername/dirsearch.git
 cd dirsearch
 
-**İstifadə Qaydası**
+# İstifadə Qaydası
 
 python3 dirsearch_tool.py -u https://target.com -w wordlist.txt -t 20 -o results.txt --timeout 10 --user-agent "Mozilla/5.0 (X11; Linux x86_64)" --json
